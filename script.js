@@ -1,13 +1,13 @@
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
-const yesBtn = document.querySelector(".yes-btn");
-const noBtn = document.querySelector(".no-btn");
+const takBtn = document.querySelector(".tak-btn");
+const nieBtn = document.querySelector(".nie-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay, see you on the 18th!";
+  question.innerHTML = "Splendid, to może jakiś meet zaproponuj ;3";
   gif.src =
-    "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    "https://media.giphy.com/media/VKUSdDIW7vXWwTFCtf/giphy.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
